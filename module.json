@@ -10,5 +10,5 @@
   "scripts": ["scripts/dice-roller.js"],
   "url": "https://github.com/Ampersandrew/Ampersandrew-s-Exploding-Dice",
   "manifest": "https://raw.githubusercontent.com/Ampersandrew/Ampersandrew-s-Exploding-Dice/main/module.json",
-  "download": "https://github.com/Ampersandrew/Ampersandrew-s-Exploding-Dice/releases/download/0.1.0/dcde.zip"
+  "download": "https://github.com/Ampersandrew/Ampersandrew-s-Exploding-Dice/releases/download/v0.1.0/deadlandsdice.zip"
 }
