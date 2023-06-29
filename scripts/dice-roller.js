@@ -1,19 +1,28 @@
 Die.MODIFIERS['ex'] = 'deadlandRoll'
 
 Die.prototype.deadlandRoll = function (modifier) {
-    //Go through each die and if you find a max value then roll another die and add that value to the initial result.
-    let max = this.results.length
-    for (let index = 0; index < max; index++) {
-        let r = this.results[index];
-        if (r.result == this.faces){
-            while (true) {
-                this.roll();
-                let bonus = this.results[this.results.length - 1].result;
-                r.result += bonus
-                if (bonus < this.faces) break;
-            };
+
+    // Make a new DieTerm object with a single die of the correct number of sides
+    const nDie = new Die({number: 1, faces: this.faces});
+
+    // Go through each result. If the result is the number of faces on the die, then
+    // roll another die of the same size and add that result to the initial result.
+    // Repeat this rerolling until the value rolled is not the number of faces on this die.
+
+    for (let index = 0; index < this.results.length; index++) {
+
+        // Initially, the latest value is the result of the first die roll
+        let latest = this.results[index].result;
+
+        // While the latest roll is an "ace"
+        while (latest == this.faces) {
+
+            // Roll another die of the same size, and extract the latest result
+            latest = nDie.roll().result;
+
+            // Add the latest result to the running total for this die
+            this.results[index].result += latest;
+            
         };
     };
-    //Only keep the highest die.
-    DiceTerm._keepOrDrop(this.results, 1, {keep: true, highest: true});
 }
