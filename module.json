@@ -1,14 +1,14 @@
 {
-  "id": "deadlands-dice-ampersandrew",
-  "name": "deadlands-dice-ampersandrew",
-  "title": "Ampersandrew's Dice Explosion!",
-  "description": "<p>Adds Deadlands Classic Dice explosions as a standard modifier /r 3d6ex + 2.</p><p>Based on the module of the same name by RhombusWeasel</p>",
+  "id": "ampersandrew-exploding-dice",
+  "name": "ampersandrew-exploding-dice",
+  "title": "Ampersandrew's Exploding Dice!",
+  "description": "<p>Adds Deadlands Classic Dice explosions as a standard modifier /r 3d6ex + 2.</p><p>Based on the module Deadlands Classic Dice Explosion by RhombusWeasel</p>",
   "author": "ampersandrew",
   "version": "0.1.0",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.7.9",
   "scripts": ["scripts/dice-roller.js"],
-  "url": "https://github.com/Ampersandrew/Deadlands-Classic-Dice-Explosion",
-  "manifest": "https://raw.githubusercontent.com/Ampersandrew/Deadlands-Classic-Dice-Explosion/main/module.json",
-  "download": "https://github.com/Ampersandrew/Deadlands-Classic-Dice-Explosion/releases/download/0.1.0/dcde.zip"
+  "url": "https://github.com/Ampersandrew/Ampersandrew-s-Exploding-Dice",
+  "manifest": "https://raw.githubusercontent.com/Ampersandrew/Ampersandrew-s-Exploding-Dice/main/module.json",
+  "download": "https://github.com/Ampersandrew/Ampersandrew-s-Exploding-Dice/releases/download/0.1.0/dcde.zip"
 }
