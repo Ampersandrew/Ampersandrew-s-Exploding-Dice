@@ -1,6 +1,7 @@
 {
-  "name": "deadlands-classic-dice-explosion",
-  "title": "Deadlands Classic Dice Explosion!",
+  "id": "deadlands-dice-ampersandrew",
+  "name": "deadlands-dice-ampersandrew",
+  "title": "Ampersandrew's Dice Explosion!",
   "description": "<p>Adds Deadlands Classic Dice explosions as a standard modifier /r 3d6ex + 2.</p><p>Based on the module of the same name by RhombusWeasel</p>",
   "author": "ampersandrew",
   "version": "0.1.0",
