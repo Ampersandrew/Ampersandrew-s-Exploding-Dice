@@ -5,8 +5,11 @@
   "description": "<p>Adds Deadlands Classic Dice explosions as a standard modifier /r 3d6ex + 2.</p><p>Based on the module Deadlands Classic Dice Explosion by RhombusWeasel</p>",
   "author": "ampersandrew",
   "version": "0.1.0",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.7.9",
+  "compatibility": {
+    "minimum": "6",
+    "verified": "10",
+    "maximum": "11"
+  },
   "scripts": ["scripts/dice-roller.js"],
   "url": "https://github.com/Ampersandrew/Ampersandrew-s-Exploding-Dice",
   "manifest": "https://raw.githubusercontent.com/Ampersandrew/Ampersandrew-s-Exploding-Dice/main/module.json",
